@@ -1,0 +1,10 @@
+F:\repos\TreeSize\TreeSize\TreeSize\bin\Debug\TreeSize.exe.config
+F:\repos\TreeSize\TreeSize\TreeSize\bin\Debug\TreeSize.exe
+F:\repos\TreeSize\TreeSize\TreeSize\bin\Debug\TreeSize.pdb
+F:\repos\TreeSize\TreeSize\TreeSize\obj\Debug\TreeSize.csprojAssemblyReference.cache
+F:\repos\TreeSize\TreeSize\TreeSize\obj\Debug\TreeSize.Form1.resources
+F:\repos\TreeSize\TreeSize\TreeSize\obj\Debug\TreeSize.Properties.Resources.resources
+F:\repos\TreeSize\TreeSize\TreeSize\obj\Debug\TreeSize.csproj.GenerateResource.cache
+F:\repos\TreeSize\TreeSize\TreeSize\obj\Debug\TreeSize.csproj.CoreCompileInputs.cache
+F:\repos\TreeSize\TreeSize\TreeSize\obj\Debug\TreeSize.exe
+F:\repos\TreeSize\TreeSize\TreeSize\obj\Debug\TreeSize.pdb
