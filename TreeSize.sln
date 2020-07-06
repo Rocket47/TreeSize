@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30002.166
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSize", "TreeSize\TreeSize.csproj", "{E4ECA88D-BDE9-4131-BAD0-873F87A4692D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSize", "TreeSize\TreeSize.csproj", "{534F0C51-BE36-4EF6-9549-7F1125CC7CDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4ECA88D-BDE9-4131-BAD0-873F87A4692D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4ECA88D-BDE9-4131-BAD0-873F87A4692D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4ECA88D-BDE9-4131-BAD0-873F87A4692D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4ECA88D-BDE9-4131-BAD0-873F87A4692D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534F0C51-BE36-4EF6-9549-7F1125CC7CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534F0C51-BE36-4EF6-9549-7F1125CC7CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534F0C51-BE36-4EF6-9549-7F1125CC7CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534F0C51-BE36-4EF6-9549-7F1125CC7CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4F67050C-0D9E-4E28-BD38-B592C776A6A6}
+		SolutionGuid = {6463B4C8-0C45-43C6-8CCA-4382E63B96B6}
 	EndGlobalSection
 EndGlobal

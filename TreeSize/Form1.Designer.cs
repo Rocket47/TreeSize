@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        /// Обязательная переменная конструктора.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Освободить все используемые ресурсы.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,22 +20,21 @@
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.listview = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.column_count = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.treeView = new System.Windows.Forms.TreeView();
+            this.listView = new System.Windows.Forms.ListView();
+            this.NameColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.TypeColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.LastModifiedColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -50,63 +49,45 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.treeView1);
+            this.splitContainer1.Panel1.Controls.Add(this.treeView);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.listview);
+            this.splitContainer1.Panel2.Controls.Add(this.listView);
             this.splitContainer1.Size = new System.Drawing.Size(800, 450);
             this.splitContainer1.SplitterDistance = 266;
             this.splitContainer1.TabIndex = 0;
             // 
-            // treeView1
+            // treeView
             // 
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.Location = new System.Drawing.Point(0, 0);
-            this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(266, 450);
-            this.treeView1.TabIndex = 0;
+            this.treeView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView.Location = new System.Drawing.Point(0, 0);
+            this.treeView.Name = "treeView";
+            this.treeView.Size = new System.Drawing.Size(266, 450);
+            this.treeView.TabIndex = 0;
             // 
-            // listview
+            // listView
             // 
-            this.listview.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.column_count});
-            this.listview.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listview.HideSelection = false;
-            this.listview.Location = new System.Drawing.Point(0, 0);
-            this.listview.Name = "listview";
-            this.listview.Size = new System.Drawing.Size(530, 450);
-            this.listview.TabIndex = 0;
-            this.listview.UseCompatibleStateImageBehavior = false;
-            this.listview.View = System.Windows.Forms.View.Details;
+            this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.NameColumn,
+            this.TypeColumn,
+            this.LastModifiedColumn});
+            this.listView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView.HideSelection = false;
+            this.listView.Location = new System.Drawing.Point(0, 0);
+            this.listView.Name = "listView";
+            this.listView.Size = new System.Drawing.Size(530, 450);
+            this.listView.TabIndex = 0;
+            this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.View = System.Windows.Forms.View.Details;
             // 
-            // columnHeader1
+            // NameColumn
             // 
-            this.columnHeader1.Text = "Name";
-            this.columnHeader1.Width = 119;
+            this.NameColumn.Text = "Name";
             // 
-            // columnHeader2
+            // TypeColumn
             // 
-            this.columnHeader2.Text = "Type";
-            this.columnHeader2.Width = 104;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Last Modified";
-            this.columnHeader3.Width = 120;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Size";
-            this.columnHeader4.Width = 83;
-            // 
-            // column_count
-            // 
-            this.column_count.Text = "Count";
+            this.TypeColumn.Text = "Type";
             // 
             // Form1
             // 
@@ -126,14 +107,13 @@
 
         #endregion
 
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.TreeView treeView1;
-        private System.Windows.Forms.ListView listview;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader column_count;
+        private System.Windows.Forms.TreeView treeView;
+        private System.Windows.Forms.ListView listView;
+        private System.Windows.Forms.ColumnHeader NameColumn;
+        private System.Windows.Forms.ColumnHeader TypeColumn;
+        private System.Windows.Forms.ColumnHeader LastModifiedColumn;
     }
 }
 

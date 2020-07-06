@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E4ECA88D-BDE9-4131-BAD0-873F87A4692D}</ProjectGuid>
+    <ProjectGuid>{534F0C51-BE36-4EF6-9549-7F1125CC7CDB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>TreeSize</RootNamespace>
     <AssemblyName>TreeSize</AssemblyName>
