@@ -35,6 +35,10 @@
             this.NameColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.TypeColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.LastModifiedColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.labelLoading = new System.Windows.Forms.Label();
+            this.SizeHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.countHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -49,6 +53,8 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.labelLoading);
+            this.splitContainer1.Panel1.Controls.Add(this.progressBar);
             this.splitContainer1.Panel1.Controls.Add(this.treeView);
             // 
             // splitContainer1.Panel2
@@ -71,7 +77,9 @@
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.NameColumn,
             this.TypeColumn,
-            this.LastModifiedColumn});
+            this.LastModifiedColumn,
+            this.SizeHeader,
+            this.countHeader});
             this.listView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView.HideSelection = false;
             this.listView.Location = new System.Drawing.Point(0, 0);
@@ -89,6 +97,40 @@
             // 
             this.TypeColumn.Text = "Type";
             // 
+            // LastModifiedColumn
+            // 
+            this.LastModifiedColumn.Text = "LastModified";
+            this.LastModifiedColumn.Width = 94;
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(0, 416);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(266, 34);
+            this.progressBar.Step = 1;
+            this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.progressBar.TabIndex = 1;
+            this.progressBar.Value = 10;
+            // 
+            // labelLoading
+            // 
+            this.labelLoading.AutoSize = true;
+            this.labelLoading.BackColor = System.Drawing.SystemColors.Control;
+            this.labelLoading.Location = new System.Drawing.Point(106, 428);
+            this.labelLoading.Name = "labelLoading";
+            this.labelLoading.Size = new System.Drawing.Size(54, 13);
+            this.labelLoading.TabIndex = 2;
+            this.labelLoading.Text = "Loading...";
+            // 
+            // SizeHeader
+            // 
+            this.SizeHeader.Text = "Size";
+            this.SizeHeader.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // countHeader
+            // 
+            this.countHeader.Text = "Count";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -98,6 +140,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
@@ -114,6 +157,10 @@
         private System.Windows.Forms.ColumnHeader NameColumn;
         private System.Windows.Forms.ColumnHeader TypeColumn;
         private System.Windows.Forms.ColumnHeader LastModifiedColumn;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.Label labelLoading;
+        private System.Windows.Forms.ColumnHeader SizeHeader;
+        private System.Windows.Forms.ColumnHeader countHeader;
     }
 }
 
